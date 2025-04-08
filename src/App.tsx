@@ -4,17 +4,19 @@ import "./App.css";
 import Login from "./Components/Login";
 import Register from "./Components/Register";
 import { BrowserRouter, Routes, Route } from "react-router";
+import Api from "./Components/Api";
 
 function App() {
   return (
     <>
       <div className="main">
-        <BrowserRouter>
+        {/* <BrowserRouter>
         <Routes>
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
         </Routes>
-        </BrowserRouter>
+        </BrowserRouter> */}
+        <Api />
       </div>
     </>
   );
